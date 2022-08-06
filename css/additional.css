@@ -1,0 +1,11 @@
+.navbar {
+    width: 100%;
+    max-width: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar button + button {
+    margin-left: 10px;
+}
