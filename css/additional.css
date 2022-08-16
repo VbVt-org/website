@@ -54,10 +54,6 @@ li a {
     padding: 14px 16px;
 }
 
-
-
-
-
 li a:hover:not(.active) {
     background-color: #111;
 }
