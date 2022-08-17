@@ -10,13 +10,9 @@
     margin-left: 10px;
 }
 
-a {
-    color: FFA07D;
-}
-
 .vote {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     display: inline-block;
     margin-right: 10px;
 }
