@@ -31,13 +31,8 @@
   </head>
   <body style="background-image:none;background-color:#232323;">
     <div class="navbar">
-            <button class="btn btn-grey" id="btn" data-clipboard-text="mc.VbVt.ml">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAl0lEQVRIie1V0QkDIQx9CbdFpfuU7tGZus/dJt4cSX8MWMF6TVvuKj4QoiZ50YcG6AaqehWRVUTUMeZaXs4I7gBO3vqaHlaNk6AKbrv8iOADTaKqXiwPmWHXw8yU5hFAcBYemfn8tFJq4NWkjNtPg0EwCI5DMGX2gi2/4rfwNy95erG3AgjOHhHNqJ6AiG6J5O3kKbYTPADjEMQ0T071DgAAAABJRU5ErkJggg==" style="width: 18px;height: 18px;display: inline-block;">
-              <span>mc.VbVt.ml</span>
-            </button>
-
             <button class="btn btn-grey">
-                <span><a href="reddit.html">r/VbVt</a></span>
+              <span>mc.VbVt.ml</span>
             </button>
 
             <button class="btn btn-grey">
@@ -79,7 +74,7 @@
                   </h3>
                   <p>VbVt is a vanilla anarchy server with the goal to stay true to the vanilla survival gamemode. Feel free to PVP, grief, build, and say whatever you want. The only rule is to not use hacked clients.
                   </p>
-                  <p>The version to join the server is 1.19, the The Wild Update. Due to Microsoft's decision to add a report system, we do not plan on upgrading our server. The ip to connect is 
+                  <p>The version to join the server is 1.20.1, The Trails & Tales Update. To make sure message are safe from reporting we disabled Microsoft reporting. The ip to connect is 
                     <b>mc.VbVt.ml
                     </b>
                   </p>
@@ -130,24 +125,7 @@
     </p> -->
   </footer>
   </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script>
-    var btn = document.getElementById('btn');
-    var clipboard = new ClipboardJS(btn);
-
-    clipboard.on('success', function (e) {
-      console.info('Action:', e.action);
-      console.info('Text:', e.text);
-      console.info('Trigger:', e.trigger);
-    });
-
-    clipboard.on('error', function (e) {
-      console.info('Action:', e.action);
-      console.info('Text:', e.text);
-      console.info('Trigger:', e.trigger);
-    });
-  </script>
 </body>
 </html>
