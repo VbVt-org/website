@@ -1901,6 +1901,10 @@ input[type=submit] {
     opacity: 1
 }
 
+.header-left {
+    font-family: "Minecraft", sans-serif;
+
+}
 #header .header-left h1 {
     font-size: 50px;
     font-weight: 800;
